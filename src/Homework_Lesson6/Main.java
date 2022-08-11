@@ -114,7 +114,7 @@ public class Main {
                     continue;
                 }
                 case 1 -> {
-                    System.out.println("Вы проводите операцию с первой картой. Какую операцию вы желаете провести?");
+                    System.out.println("Вы проводите операцию со второй картой. Какую операцию вы желаете провести?");
                     secondCardOperation:
                     for (; ; ) {
                         switch (scanner.next()) {
@@ -210,7 +210,7 @@ public class Main {
                     continue;
                 }
                 case 2 -> {
-                    System.out.println("Вы проводите операцию с первой картой. Какую операцию вы желаете провести?");
+                    System.out.println("Вы проводите операцию с третьей картой. Какую операцию вы желаете провести?");
                     thirdCardOperation:
                     for (; ; ) {
                         switch (scanner.next()) {
