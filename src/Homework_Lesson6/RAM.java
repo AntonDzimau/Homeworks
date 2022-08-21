@@ -5,7 +5,6 @@ public class RAM {
     int amountRAM;
 
     public RAM() {
-
     }
 
     public RAM(String nameRAM, int amountRAM) {

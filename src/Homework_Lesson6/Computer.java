@@ -6,8 +6,6 @@ public class Computer {
     private final RAM RAM;
     private final HDD HDD;
 
-
-
     public Computer(double cost, String model) {
         this.cost = cost;
         this.model = model;
@@ -21,7 +19,8 @@ public class Computer {
         this.RAM = RAM;
         this.HDD = HDD;
     }
-    void infoAboutComputer(){
-        System.out.println("The cost of the computer is "+cost+"$"+"; the model is '"+model+"'; RAM is '"+RAM.nameRAM+"', "+RAM.amountRAM+" Gb\nHDD type is "+HDD.typeHDD+"; name is '"+HDD.nameHDD+"' and amount of HDD is "+HDD.amountHDD+" Gb");
+
+    void infoAboutComputer() {
+        System.out.println("The cost of the computer is " + cost + "$" + "; the model is '" + model + "'; RAM is '" + RAM.nameRAM + "', " + RAM.amountRAM + " Gb\nHDD type is " + HDD.typeHDD + "; name is '" + HDD.nameHDD + "' and amount of HDD is " + HDD.amountHDD + " Gb");
     }
 }
